@@ -15,16 +15,24 @@
   background-color: var(--second-color-light);
 }
 
-#features .col {
-  text-align: center;
+#features .col-special > * {
+  margin-top: 1.875rem;
 }
 
-#features .col > *:not(img) {
+#features .col-special .col-content > * {
   margin: 0 1.5625rem 1.875rem;
 }
 
-#features .col > :first-child:not(img) {
+#features .col > * {
+  margin: 0 1.5625rem 1.875rem;
+}
+
+#features .col > :first-child {
   margin-top: 1.875rem;
+}
+
+#features .col {
+  text-align: center;
 }
 
 #features i,
