@@ -7,10 +7,6 @@
   color: var(--third-text);
 }
 
-.debug #about .col {
-  height: 100px;
-}
-
 /* 
 ===============
 ≥ 768px
@@ -20,6 +16,6 @@
 @media screen and (min-width: 768px) {
   
   #about .col {
-    width: 50%;
+    width: calc(50% - 25px);
   }
 }
