@@ -5,7 +5,6 @@
 
 #features .flex {
   flex-wrap: wrap;
-  gap: 1.5625rem;
 }
 
 #features .col-special,

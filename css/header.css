@@ -6,7 +6,7 @@ header {
   z-index: 1000;
   height: 75px;
   background-color: var(--second-color);
-  color: var(--first-text)
+  color: var(--first-text);
 }
 
 header .flex {
@@ -16,7 +16,6 @@ header .flex {
 
 header nav {
   display: none;
-  vertical-align: middle;
 }
 
 header li {

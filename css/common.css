@@ -1,6 +1,18 @@
+/* 
+===============
+Container
+===============
+*/
+
 .container {
   padding: 0 1.875rem;
 }
+
+/* 
+===============
+Common
+===============
+*/
 
 section .flex {
   gap: 1.5625rem;
