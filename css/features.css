@@ -5,6 +5,7 @@
 
 #features .flex {
   flex-wrap: wrap;
+  gap: 1.5625rem;
 }
 
 #features .col {
@@ -15,6 +16,14 @@
 
 #features .col:not(:first-child) {
   text-align: center;
+}
+
+#features .col > * {
+  margin: 0 1.5625rem 1.875rem;
+}
+
+#features .col :first-child {
+  margin-top: 1.875rem;
 }
 
 #features i,
@@ -39,10 +48,10 @@
 @media screen and (min-width: 768px) {
   
   #features .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 1.5625rem);
   }
 
   #features .col:first-child {
-    width: calc((100% / 3) * 2);
+    width: calc((100% / 3) * 2 - 1.5625rem / 2);
   }
 }
