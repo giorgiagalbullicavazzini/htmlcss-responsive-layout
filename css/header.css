@@ -16,10 +16,22 @@ header .flex {
 
 header nav {
   display: none;
+  vertical-align: middle;
 }
 
 header li {
   margin-left: 1.875rem;
+  padding: .625rem 0;
+}
+
+header li:last-child {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: .625rem .9375rem;
+}
+
+header li:last-child a {
+  color: var(--third-text);
 }
 
 /*
