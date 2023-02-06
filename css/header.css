@@ -1,10 +1,25 @@
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 75px;
   background-color: var(--second-color);
   color: var(--first-text)
 }
 
+header .flex {
+  height: 100%;
+  align-items: center;
+}
+
 header nav {
   display: none;
+}
+
+header li {
+  margin-left: 1.875rem;
 }
 
 /*

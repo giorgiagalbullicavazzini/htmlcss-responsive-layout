@@ -15,6 +15,16 @@
   list-style: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: var(--first-text);
+  text-decoration: none;
+}
+
 /* 
 ===============
 ≥ 992px
