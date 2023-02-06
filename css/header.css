@@ -1,0 +1,19 @@
+header {
+  background-color: var(--second-color);
+  color: var(--first-text)
+}
+
+header nav {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  
+  header .burger {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+}

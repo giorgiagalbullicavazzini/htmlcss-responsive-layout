@@ -1,0 +1,24 @@
+.container {
+  padding: 0 1.875rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.list-inline {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+  
+  .container {
+    max-width: 1040px;
+    margin: auto;
+  }
+}
