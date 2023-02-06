@@ -8,10 +8,6 @@
   width: 100%;
 }
 
-.debug #partners .card {
-  height: 100px;
-}
-
 /* 
 ===============
 ≥ 768px
@@ -20,7 +16,11 @@
 
 @media screen and (min-width: 768px) {
   
-  #partners .col {
-    width: 50%;
+  #partners .col-image {
+    width: calc(30% - 1.5625rem);
+  }
+
+  #partners .col-info {
+    width: calc(70% - 1.5625rem);
   }
 }
