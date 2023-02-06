@@ -27,6 +27,21 @@ a {
 
 /* 
 ===============
+Buttons
+===============
+*/
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: .9375rem 2.5rem;
+  border-radius: 1.5625rem;
+  border: none;
+  color: var(--first-text);
+}
+
+/* 
+===============
 ≥ 992px
 ===============
 */
