@@ -1,0 +1,42 @@
+#benefits {
+  background-color: var(--first-color);
+}
+
+#benefits .flex {
+  flex-wrap: wrap;
+}
+
+#benefits .col {
+  width: 100%;
+  color: var(--second-text);
+}
+
+.debug #benefits .col {
+  height: 100px;
+}
+
+/* 
+===============
+≥ 768px
+===============
+*/
+
+@media screen and (min-width: 768px) {
+  
+  #benefits .col {
+    width: 50%;
+  }
+}
+
+/* 
+===============
+≥ 992px
+===============
+*/
+
+@media screen and (min-width: 992px) {
+  
+  #benefits .col {
+    width: calc(100% / 3);
+  }
+}
