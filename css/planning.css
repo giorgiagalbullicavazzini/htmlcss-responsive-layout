@@ -1,0 +1,30 @@
+#planning {
+  background-color: var(--first-color);
+  color: var(--first-text);
+}
+
+#planning .flex {
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+#planning .col {
+  width: 100%;
+}
+
+.debug #planning .flex {
+  height: 100px;
+}
+
+/* 
+===============
+≥ 992px
+===============
+*/
+
+@media screen and (min-width: 992px) {
+  
+  #planning .col {
+    width: 50%;
+  }
+}
