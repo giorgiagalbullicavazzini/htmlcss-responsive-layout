@@ -11,10 +11,6 @@
   color: var(--second-text);
 }
 
-.debug #benefits .col {
-  height: 100px;
-}
-
 /* 
 ===============
 ≥ 768px
@@ -24,7 +20,7 @@
 @media screen and (min-width: 768px) {
   
   #benefits .col {
-    width: 50%;
+    width: calc(50% - 25px);
   }
 }
 
@@ -37,6 +33,6 @@
 @media screen and (min-width: 992px) {
   
   #benefits .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 25px);
   }
 }
