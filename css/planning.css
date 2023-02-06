@@ -12,10 +12,6 @@
   width: 100%;
 }
 
-.debug #planning .flex {
-  height: 100px;
-}
-
 /* 
 ===============
 ≥ 992px
@@ -25,6 +21,6 @@
 @media screen and (min-width: 992px) {
   
   #planning .col {
-    width: 50%;
+    width: calc(100% / 2 - 25px);
   }
 }

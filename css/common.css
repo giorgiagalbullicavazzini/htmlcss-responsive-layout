@@ -2,6 +2,10 @@
   padding: 0 1.875rem;
 }
 
+section .flex {
+  gap: 1.5625rem;
+}
+
 .flex {
   display: flex;
 }
