@@ -1,0 +1,33 @@
+#features {
+  color: var(--second-text);
+}
+
+#features .flex {
+  flex-wrap: wrap;
+}
+
+#features .col {
+  width: 100%;
+  background-color: var(--second-color-light);
+}
+
+.debug #features .col {
+  height: 100px;
+}
+
+/* 
+===============
+≥ 768px
+===============
+*/
+
+@media screen and (min-width: 768px) {
+  
+  #features .col {
+    width: calc(100% / 3);
+  }
+
+  #features .col:first-child {
+    width: calc((100% / 3) * 2);
+  }
+}
