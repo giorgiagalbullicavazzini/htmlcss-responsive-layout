@@ -1,0 +1,26 @@
+#partners .flex {
+  flex-wrap: wrap;
+  background-color: var(--first-color);
+  color: var(--first-text);
+}
+
+#partners .col {
+  width: 100%;
+}
+
+.debug #partners .card {
+  height: 100px;
+}
+
+/* 
+===============
+≥ 768px
+===============
+*/
+
+@media screen and (min-width: 768px) {
+  
+  #partners .col {
+    width: 50%;
+  }
+}
