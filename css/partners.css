@@ -3,7 +3,8 @@
   font-size: 1.25rem;
 }
 
-#partners * {
+#partners .content *,
+#partners .cards > * {
   margin-top: 1.5625rem;
 }
 
@@ -19,7 +20,9 @@
 #partners .flex {
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   background-color: var(--first-color);
+  border-radius: 25px;
   color: var(--first-text);
 }
 
@@ -48,7 +51,7 @@
   line-height: 1.875rem;
 }
 
-#partners .col-info p {
+#partners .col-info {
   padding: 0 .625rem;
 }
 
@@ -79,9 +82,9 @@
 */
 
 @media screen and (min-width: 768px) {
-  
-  #partners .col-image {
-    width: calc(30% - 1.5625rem);
+
+  #partners .cards {
+    text-align: left;
   }
 
   #partners .col-info {
