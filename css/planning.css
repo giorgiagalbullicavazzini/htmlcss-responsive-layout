@@ -1,6 +1,7 @@
 #planning {
   background-color: var(--first-color);
   color: var(--first-text);
+  font-size: 1.0625rem;
 }
 
 #planning .flex {
@@ -8,8 +9,49 @@
   align-items: flex-end;
 }
 
-#planning .col {
+#planning .col-50 {
   width: 100%;
+}
+
+#planning .col-50 > * {
+  margin-top: 1.5625rem;
+}
+
+#planning .no-background h2 {
+  font-size: 2.1875rem;
+  margin-bottom: 50px;
+}
+
+#planning .no-background img {
+  margin-bottom: 4.375rem;
+}
+
+#planning .background {
+  border-radius: 25px;
+  background-color: var(--first-text);
+  color: var(--third-text);
+  text-align: center;
+  padding: 0 .9375rem;
+}
+
+#planning button {
+  background-color: var(--first-color);
+  color: var(--third-text);
+  padding: 16px 20px;
+  border-radius: 50%;
+}
+
+/* 
+===============
+≥ 768px
+===============
+*/
+
+@media screen and (min-width: 768px) {
+  
+  #planning .no-background h2 {
+    font-size: 4.375rem;
+  }
 }
 
 /* 
@@ -20,7 +62,23 @@
 
 @media screen and (min-width: 992px) {
   
-  #planning .col {
+  #planning .col-50 {
     width: calc(100% / 2 - 25px);
+  }
+
+  #planning .image {
+    justify-content: center;
+  }
+
+  #planning .no-background img {
+    width: 90%;
+  }
+
+  #planning .no-background h2 {
+    font-size: 2.1875rem;
+  }
+
+  #planning .background img {
+    width: 60%;
   }
 }
