@@ -8,6 +8,20 @@ Container
   padding: 0 1.875rem;
 }
 
+section .col-66,
+section .col-33 {
+  width: 100%;
+  border-radius: 25px;
+}
+
+section .col-33 > * {
+  margin: 0 1.5625rem 1.875rem;
+}
+
+section .col-33 > :first-child {
+  margin-top: 1.875rem;
+}
+
 /* 
 ===============
 Common
