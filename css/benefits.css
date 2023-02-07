@@ -1,5 +1,12 @@
 #benefits {
   background-color: var(--first-color);
+  font-size: 1.0625rem;
+}
+
+#benefits h2 {
+  color: var(--first-text);
+  text-align: center;
+  font-size: 2.1875rem;
 }
 
 #benefits .flex {
@@ -8,7 +15,29 @@
 
 #benefits .col {
   width: 100%;
+  background-color: var(--first-text);
+  border-radius: 25px;
+  padding: 1.5625rem;
   color: var(--second-text);
+}
+
+#benefits .number,
+#benefits .benefit {
+  color: var(--first-color);
+}
+
+#benefits .number {
+  font-size: 3.4375rem;
+  font-weight: 600;
+}
+
+#benefits .benefit {
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+#benefits button {
+  background-color: var(--first-color);
 }
 
 /* 
@@ -21,6 +50,14 @@
   
   #benefits .col {
     width: calc(50% - 25px);
+  }
+
+  #benefits h2 {
+    font-size: 2.8125rem;
+  }
+
+  #benefits .number {
+    font-size: 4.375rem;
   }
 }
 
